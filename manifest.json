@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "The Gram Autosender",
+  "version": "1.0.0",
+  "description": "Auto-send Telegram logo!",
+
+  "permissions": ["storage", "scripting"],
+  "host_permissions": [
+    "https://web.telegram.org/a/*",
+    "https://telegram.org/*"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "action": {
+    "default_popup": "popup.html"
+  },
+
+  "content_scripts": [{
+    "matches": ["https://web.telegram.org/a/*"],
+    "js": ["contentScript.js"],
+    "run_at": "document_idle"
+  }],
+
+  "icons": {
+    "128": "icon128.png"
+  }
+}

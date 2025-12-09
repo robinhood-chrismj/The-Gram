@@ -1,0 +1,13 @@
+I've been working on this for the past 2 days. 
+I've got a working extension that auto-sends "The Telegram Logo" with an interval that can be taken as input from the user.
+
+How to get it running:
+
+1) Download the folder attached.
+2) Go to the extensions tab in your Chromium Browser and enable developer mode.
+3) Click Load Unpacked and select the folder downloaded.
+4) The extension should appear on the top, press and enable by clicking on the slider.
+5) Set the appropriate time interval.
+6) Enjoy!
+
+___________________________________________________________________________________________________________________________________________

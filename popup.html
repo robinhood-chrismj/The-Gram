@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Vanish Logo</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div style="padding:16px; width:220px; font-family:system-ui, sans-serif;">
+    <label class="switch">
+      <input type="checkbox" id="enabled">
+      <span class="slider round"></span>
+    </label>
+    <span style="margin-left:12px; font-weight:bold;">Auto Send Logo</span>
+
+    <div style="margin-top:16px;">
+      <label>Interval (seconds):</label><br>
+      <input class="time" id="item" type="number" min="5" value="10">
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

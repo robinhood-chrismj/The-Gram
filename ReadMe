@@ -1,6 +1,7 @@
 I've been working on this for the past 2 days. 
 I've got a working extension that auto-sends "The Telegram Logo" with an interval that can be taken as input from the user.
 
+***Don't forget to remove the demo video in the repository before unpacking.
 How to get it running:
 
 1) Download the folder attached.
@@ -10,4 +11,4 @@ How to get it running:
 5) Set the appropriate time interval.
 6) Enjoy!
 
-___________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________
